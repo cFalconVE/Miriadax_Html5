@@ -1,0 +1,76 @@
+h1 {
+    font-family: Arial, "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 2px solid #AFAFAF; 
+    font-size:  2em;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    color: blue;
+    font-family: "Fira Sans", sans-serif;
+}
+
+h2.titulo {
+    padding-left: 2em;
+}
+
+h3.titulo {
+    padding-left: 4em;
+}
+
+h4.titulo {
+    padding-left: 6em;
+}
+
+body  {
+    background-color: #ece3a5;
+    margin: auto 10%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+
+.tabla {
+     font-family: "Fira Sans", sans-serif;
+}
+
+div {
+    border: 2px solid #D20005; /*#f2f2f2;*/
+    -webkit-box-shadow: 10px 5px 5px black;
+    -moz-box-shadow: 10px 5px 5px black;
+    margin-top: 20px;
+    padding: 1px 10px 1px;
+    width: 85%;
+    flex: 
+}
+
+div.roboto {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+div.fira-sans {
+    font-family: "Fira Sans", Arial; 
+    font-size: 18px;
+}
+
+div.fira-mono {
+    font-family: "Fira Mono", Arial;
+    font-size: 18px;
+}
+
+p {
+    margin: 20px;
+}
+
+table.sombra {
+    border: 2px solid #D20005; /*#f2f2f2;*/
+    -webkit-box-shadow: 10px 5px 5px black;
+    -moz-box-shadow: 10px 5px 5px black;
+    margin-top: 20px;
+    padding: 1px 10px;
+}

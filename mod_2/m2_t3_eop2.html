@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Imagen Responsive, Video y archivos de imagen vectorial</title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+</head>
+<body>
+	<h1>Imagen Responsive, video y archivos de imagen vectorial</h1>
+	<h2 class="titulo">Módulo 2 - Tema 3 - Ejercicio Opcional 2</2>
+	<table class="tabla">
+		<tr>
+			<td>
+				<h2>Imagen Responsive</h2>
+  				<picture>
+  					<source media="(min-width: 1000px)" srcset="../image/minion_fiesta_1024.png">
+  					<source media="(min-width: 800px)" srcset="../image/800px-Simpson_Family_Minions.png">
+  					<source media="(min-width: 400px)" srcset="../image/minuins_400.png">
+  					<source media="(min-width: 300px)" srcset="../image/EVILMINION3_300.png">
+          			<img src="../image/Kevin_minions_200.png" alt="No consigue la imagem">
+  				</picture>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h2>Video de youtube</h2>
+				<iframe width="600" height="400"
+				  src="https://www.youtube.com/embed/XH3Xu1-cvII" frameborder="0" allowfullscreen>
+				</iframe>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h2>Imagen vectorial</h2>
+				<img src="../image/imagenes-svg.svg" alt="Este navegador no soporta imagenes vectoriales" width="90%">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
