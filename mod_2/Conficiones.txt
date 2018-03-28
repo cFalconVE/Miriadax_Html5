@@ -2,15 +2,18 @@
 
 2.- Inclusión de tipografías externas de Google Fonts, Adobe Edge Web Fonts o un servicio similar on line.
 
-3.- Distintos encabezados.
+3.- (Listo)
+Distintos encabezados.
 
-4.- Uso de caracteres especiales
+4.- (Listo)
+Uso de caracteres especiales
 
 5.- Incluir, imágenes de tipo bitmap y vectorial.
 
 6.- Incluir algún vídeo.
 
-7.- Incluir bordes redondeados en alguna de sus cajas.
+7.- (listo)
+Incluir bordes redondeados en alguna de sus cajas.
 
 8.- (Listo)
 La página debe comenzar con el siguiente encabezamiento:  “Página personal de <nombre y apellido del alumno>

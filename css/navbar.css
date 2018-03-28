@@ -1,0 +1,30 @@
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-img {
+	background-image: url('https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg');
+	background-repeat: no-repeat;
+	display: block;
+}
+
+/*
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+*/
+/*.bd-navbar */
+
+.cbg-viol {
+  background-color: #563D7C;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0.5rem 1rem, rgba(0, 0, 0, 0.1) 0 -1px 0 inset;
+  min-height: 4rem;
+}
+
+.c_navlink-whi {
+	color: white;
+}

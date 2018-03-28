@@ -2,6 +2,9 @@
 <html lang="es-ES">
 <head>
 	<meta charset="utf-8">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	-->
 
 	<!-- RESPONSIVE -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,9 +24,12 @@
   <!-- FUENTES EXTERNAS DE Adobe Web FONTS -->
 	<script src="https://use.edgefonts.net/clara;unifrakturmaguntia;unifrakturcook;source-sans-pro.js"></script>
 
+
+
 	<!-- Mis Estilos -->
 	<link rel="stylesheet" type="text/css" href="../css/miEstilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+	<!--link rel="stylesheet" type="text/css" href="../css/ocultar.css"-->
 
 	<title>Módulo 2 - Ejercicio Obligatorio</title>
 	<link rel="stylesheet" href="">
@@ -32,13 +38,27 @@
 	<header id="header">
 		<h1 class="hTitulo">Página personal de Carlos Falcón</h1>	
 	</header>
+	<!--class="ocultar" 
+		/header navbar-dark bg-dark-->
 	
 	<nav class="navbar navbar-expand-md navbar-dark cbg-viol rounded">
 		<a class="navbar-brand" href="https://miriadax.net/web/html5mooc" title="Miriadax" target="_blank">
 			<img class="img-fluid" src="https://miriadax.net/miriadax-theme/images/favicon.ico" width="40px" height="40px" 
 			  alt="Miriadax"> Curso Html5
 		</a>
+<!--
+	https://miriadax.net/miriadax-theme/images/custom/logo_miriadax.jpg
+style="background-image: url('https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg');"
 
+	https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg
+	https://miriadax.net/miriadax-theme/images/favicon.ico
+		<meta property="og:image" content="https://miriadax.net/documents/35489004/64647214/html5_firefox_2.jpg/559e8f74-0191-426d-8248-7e7d771f7c6c;jsessionid=0FAB0F91E2C67E7C93A7231944EAF1BE.node3?version=1.0&amp;t=1456156940000">
+
+		<meta property="og:url" content="https://miriadax.net/web/html5mooc">
+		<script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-P795F6"></script>
+
+		<link href="https://miriadax.net/miriadax-theme/images/favicon.ico" rel="Shortcut Icon">
+-->
 		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nbMenu" aria-controls="nbMenu" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -49,10 +69,10 @@
 					<a class="nav-link c_navlink-whi" href="#condiciones" title="Condiciones del Ejercicio Obligatorio">Condiciones</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link c_navlink-whi" href="#caresp" title="Caracteres especiales en Html5">Caracteres especiales</a>
+					<a class="nav-link c_navlink-whi" href="#caresp" title="Caráteres especiales en Html5">Carácteres especiales</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link c_navlink-whi" href="#imagen" title="Imagenes">Imágenes</a>
+					<a class="nav-link c_navlink-whi" href="#imagen" title="Imagenes">Imagenes</a>
 				</li>
 				<li class="nav-item c_navlink-whi dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dd2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Videos (Youtube)</a>
@@ -77,12 +97,12 @@
 			  	<ol>
 			  		<li>Uso de colores para texto y fondo, incluyendo al menos colores degradados en alguna de sus cajas.</li>
 			  		<li>Inclusión de tipografías externas de Google Fonts, Adobe Edge Web Fonts o un servicio similar on line.</li>
-			  		<li>Distintos encabezados.</li>
-			  		<li>Uso de caracteres especiales.</li>
-			  		<li>Incluir, imágenes de tipo bitmap y vectorial.</li>
-			  		<li>Incluir algún vídeo.</li>
-			  		<li>Incluir bordes redondeados en alguna de sus cajas.</li>
-			  		<li>La página debe comenzar con el siguiente encabezamiento: &ldquo;Página personal de &lt;<strong>nombre y apellido del alumno.</strong>&gt;&rdquo;</li>
+			  		<li>Distintos encabezados</li>
+			  		<li>Uso de caracteres especiales</li>
+			  		<li>Incluir, imágenes de tipo bitmap y vectorial</li>
+			  		<li>Incluir algún vídeo</li>
+			  		<li>Incluir bordes redondeados en alguna de sus cajas</li>
+			  		<li>La página debe comenzar con el siguiente encabezamiento: &ldquo;Página personal de &lt;<strong>nombre y apellido del alumno</strong>&gt;&rdquo;</li>
 			  	</ol>
 			  	</div>
 			  </article>
@@ -266,16 +286,16 @@
 
 				<article>
 					<div id="imagen" class="caja-sombra color-img">
-						<h2>Imágenes</h2>
+						<h2>Imagenes</h2>
 						<div class="row">
 							<div class="col-xs-12 col-md-6">
 								<h3>bitmap</h3>
-								<p>imagen de pixeles, es una estructura o fichero de datos que representa una rejilla rectangular de píxeles.</p> 
+								<p>imagen de pixeles, es una estructura o fichero de datos que representa una rejilla rectangular de píxeles</p> 
 								<img src="../image/png/YodaLego.png" style="width: 200px; height: 200px" alt="">
 							</div>
 							<div class="col-xs-12 col-md-6">
 								<h3>vectorial (svg)</h3>
-								<p>Una imagen vectorial es una imagen digital formada por objetos geométricos dependientes (segmentos, polígonos, arcos, muros, etc.).</p> 
+								<p>Una imagen vectorial es una imagen digital formada por objetos geométricos dependientes (segmentos, polígonos, arcos, muros, etc.)</p> 
 								<img src="../image/svg/imagenes-svg.svg" style="width: 200px; height: 200px" alt="">
 							</div>
 							<!--
@@ -317,19 +337,19 @@
 			<p>&copy 2018 - Desarrollo en HTML5, CSS y Javascript de Apps Web, Android And IOs</p>
 		</div>
 		<div class="float-c col-xs-12 col-md-4">
-			<a href="https://twitter.com/miriadax" title="Twitter" target="_blank">
+			<a href="#" title="Twitter" target="_blank">
 				<img src="../image/png/twitter.png" alt="Twitter">
 			</a>
-			<a href="https://es-es.facebook.com/MiriadaX" title="Facebook" target="_blank">
+			<a href="#" title="Facebook" target="_blank">
 				<img src="../image/png/facebook.png" alt="Facebook">
 			</a>
-			<a href="https://es.linkedin.com/company/mir-ada-x" title="Linkedin" target="_blank">
+			<a href="https://www.linkedin.com" title="Linkedin" target="_blank">
 				<img src="../image/png/linkedin.png" alt="Linkedin">
 			</a>
-			<a href="https://plus.google.com/+MiriadaxNet/posts" title="Google++" target="_blank">
+			<a href="https://plus.google.com/" title="Google++" target="_blank">
 				<img src="../image/png/gplus.png" alt="Google++">
 			</a>
-			<a href="https://www.whatsapp.com/" title="Whatsapp" target="_blank">
+			<a href="" title="Whatsapp" target="_blank">
 				<img src="../image/png/whatsapp.png" alt="Whatsapp">
 			</a>
 			<a href="https://neocities.org" title="Neocities" target="_blank">
@@ -338,10 +358,13 @@
 		</div>
 	</footer>
 	
-	<!-- JS BOOTSTRAP 
-	     Placed at the end of the document so the pages load faster -->
+	<!-- JS DE BOOTSTRAP -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
+<!--script src="/js/ocultar.js" type="text/javascript" charset="utf-8" async defer></script
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>-->
 </html>

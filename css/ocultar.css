@@ -1,0 +1,14 @@
+.ocultar {
+  color: #b30838;
+  font-size: 25px;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #b30838;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.ocultar:hover {
+  border: 1px solid #b30838;
+  color: #fff;
+  background: #b30838;
+}
